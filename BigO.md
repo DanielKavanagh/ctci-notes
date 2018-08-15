@@ -1,4 +1,4 @@
-##Big O
+## Big O
 
 Defines the efficiency of a program, in both time and space.
 
@@ -12,7 +12,7 @@ In acedemia there's three different concepts:
 
 In development, Big O is basically Big Θ. 
 
-##Comments
+## Comments
 
 - Big O describes the rate of increase on time, its possible for O(N) to be faster than O(1) with a particular set of inputs.
 
