@@ -20,3 +20,24 @@ In development, Big O is basically Big Θ.
 
 ![BigOGraph](https://he-s3.s3.amazonaws.com/media/uploads/ece920b.png)
 
+```
+for (int a : arrA) {
+	print(a);
+}
+
+for (int b : arrB) {
+	print(b);
+}
+```
+
+- Add the runtimes (do this then do that), O(A + B)
+
+```
+for (int a : arrA) {
+	for (int b : arrB) {
+		print(a + "," + b);
+	}
+}
+```
+
+- Multiply the runtimes (for every time you do this, do that), O(A * B)
